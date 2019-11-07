@@ -4,17 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1840CFDD-BEB0-4844-9FBE-397530980181}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>PurseGit</RootNamespace>
-    <AssemblyName>PurseGit</AssemblyName>
+    <ProjectGuid>{5350A63B-E437-42C2-B2FC-ED3D5D8810D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Card</RootNamespace>
+    <AssemblyName>Card</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +24,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,25 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CreditCard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessCard\BusinessCard.csproj">
-      <Project>{398d02c0-5a67-443d-a4b1-645ccbf4a6f3}</Project>
-      <Name>BusinessCard</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Card\Card.csproj">
-      <Project>{5350a63b-e437-42c2-b2fc-ed3d5d8810d9}</Project>
-      <Name>Card</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MoneyLibrary\MoneyLibrary.csproj">
-      <Project>{b59bbf15-9ee0-4913-a1a7-592cb693a685}</Project>
-      <Name>MoneyLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
