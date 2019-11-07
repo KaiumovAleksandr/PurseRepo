@@ -1,6 +1,9 @@
 ﻿using System;
 using MoneyLibrary;
 
+
+
+
 namespace PurseGit
 {
     class Program
