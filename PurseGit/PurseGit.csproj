@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BusinessCard">
-      <HintPath>..\BusinessCard\bin\Debug\BusinessCard.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,9 +50,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CreditCard\CreditCard.csproj">
-      <Project>{8885b224-dbe4-44b5-8aa2-a4efe67fa9b9}</Project>
-      <Name>CreditCard</Name>
+    <ProjectReference Include="..\BusinessCard\BusinessCard.csproj">
+      <Project>{398d02c0-5a67-443d-a4b1-645ccbf4a6f3}</Project>
+      <Name>BusinessCard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Card\Card.csproj">
+      <Project>{5350a63b-e437-42c2-b2fc-ed3d5d8810d9}</Project>
+      <Name>Card</Name>
     </ProjectReference>
     <ProjectReference Include="..\MoneyLibrary\MoneyLibrary.csproj">
       <Project>{b59bbf15-9ee0-4913-a1a7-592cb693a685}</Project>

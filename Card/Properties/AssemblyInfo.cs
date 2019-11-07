@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CreditCard")]
+[assembly: AssemblyTitle("Card")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CreditCard")]
+[assembly: AssemblyProduct("Card")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8885b224-dbe4-44b5-8aa2-a4efe67fa9b9")]
+[assembly: Guid("5350a63b-e437-42c2-b2fc-ed3d5d8810d9")]
 
 // Version information for an assembly consists of the following four values:
 //
