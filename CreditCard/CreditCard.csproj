@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1840CFDD-BEB0-4844-9FBE-397530980181}</ProjectGuid>
+    <ProjectGuid>{8885B224-DBE4-44B5-8AA2-A4EFE67FA9B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PurseGit</RootNamespace>
-    <AssemblyName>PurseGit</AssemblyName>
+    <RootNamespace>CreditCard</RootNamespace>
+    <AssemblyName>CreditCard</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreditCard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CreditCard\CreditCard.csproj">
-      <Project>{8885b224-dbe4-44b5-8aa2-a4efe67fa9b9}</Project>
-      <Name>CreditCard</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MoneyLibrary\MoneyLibrary.csproj">
-      <Project>{b59bbf15-9ee0-4913-a1a7-592cb693a685}</Project>
-      <Name>MoneyLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

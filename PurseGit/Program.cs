@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MoneyLibrary;
+
+
 
 namespace PurseGit
 {
@@ -13,6 +11,9 @@ namespace PurseGit
         {
             Money money = new Money(45896);
             Console.WriteLine(money);
+            var card = new CreditCard.CreditCard(100);
+            card.ShowBalance();
+            Console.ReadLine();
         }
     }
 }

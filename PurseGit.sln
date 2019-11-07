@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurseGit", "PurseGit\PurseGit.csproj", "{1840CFDD-BEB0-4844-9FBE-397530980181}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyLibrary", "MoneyLibrary\MoneyLibrary.csproj", "{B59BBF15-9EE0-4913-A1A7-592CB693A685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCard", "CreditCard\CreditCard.csproj", "{8885B224-DBE4-44B5-8AA2-A4EFE67FA9B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B59BBF15-9EE0-4913-A1A7-592CB693A685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B59BBF15-9EE0-4913-A1A7-592CB693A685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B59BBF15-9EE0-4913-A1A7-592CB693A685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8885B224-DBE4-44B5-8AA2-A4EFE67FA9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8885B224-DBE4-44B5-8AA2-A4EFE67FA9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8885B224-DBE4-44B5-8AA2-A4EFE67FA9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8885B224-DBE4-44B5-8AA2-A4EFE67FA9B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
